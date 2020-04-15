@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   region: "eu-central-1"
   app: "docker-react-1.0"
-  env: "DockerReact10-en"
+  env: "DockerReact10-env"
   bucket_name: "elasticbeanstalk-eu-central-1-968812419730"
   bucket_path: "docker-react-1.0"
   on:
